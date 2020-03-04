@@ -27,7 +27,7 @@ model User {
 
 model Profile {
   id   Int    @id @default(autoincrement())
-  bio  String @unique
+  bio  String
   user User
 }
 
